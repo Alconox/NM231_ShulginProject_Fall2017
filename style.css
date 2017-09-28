@@ -3,12 +3,54 @@ body, h1, h5 {
 }
 
 body, html {
+    background-color: black;
 	height: 100%;
+    overflow:hidden;
 }
 
+/*
 .bgimg {
     background-image: url('images/crt.svg');
     min-height: 100%;
     background-position: center;
     background-size: cover;
+}*/
+
+
+#mainDiv{
+    position: fixed;
+    margin: auto;
+    width: 100%;
+}
+
+#divTwo{
+    position: absolute;
+    top: 21.5%;
+    left: 32%;
+    background: none;
+    overflow:scroll; 
+    margin: auto;
+    height:425px;
+    width: 560px;
+    font-family: 'VT323', monospace;
+    font-size: 25px;
+    line-height: 95%;
+
+}
+
+    ::-webkit-scrollbar {
+    width: 0px; 
+    background: transparent;
+}
+
+#colorBlock{
+    position: absolute;
+    top: 19%;
+    left: 30%;
+    background-color:white;
+    overflow:scroll; 
+    margin: auto;
+    height:600px;
+    width: 650px;
+    z-index:-1;
 }
