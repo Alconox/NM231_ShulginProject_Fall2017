@@ -28,6 +28,7 @@ body, html {
     top: 21.5%;
     left: 32%;
     background: none;
+    color: lawngreen;
     overflow:scroll; 
     margin: auto;
     height:425px;
@@ -43,14 +44,4 @@ body, html {
     background: transparent;
 }
 
-#colorBlock{
-    position: absolute;
-    top: 19%;
-    left: 30%;
-    background-color:white;
-    overflow:scroll; 
-    margin: auto;
-    height:600px;
-    width: 650px;
-    z-index:-1;
-}
+
