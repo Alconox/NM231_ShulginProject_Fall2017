@@ -4,6 +4,10 @@ body, html {
     overflow:hidden;
 }
 
+ul {
+    text-align: left;
+}
+
 /*
 .bgimg {
     background-image: url('images/crt.svg');
